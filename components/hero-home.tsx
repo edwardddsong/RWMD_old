@@ -41,6 +41,13 @@ export default function HeroHome() {
                   height={32}
                   alt="Avatar 02"
                 />
+                <Image
+                  className="box-content rounded-full border-2 border-gray-50"
+                  src={Avatar04}
+                  width={32}
+                  height={32}
+                  alt="Avatar 02"
+                />
               </div>
             </div>
             <h1
@@ -51,11 +58,10 @@ export default function HeroHome() {
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-lg text-gray-700"
+                className="mb-8 text-xl text-gray-700"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}>
-                Simple is a modern website builder powered by AI that changes
-                how companies create user interfaces together.
+                专注机构算法交易 —— 读懂市场里每一根K线背后的意义才是优秀的交易
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
@@ -81,6 +87,7 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
+
           {/* Hero image */}
           <div
             className="mx-auto max-w-3xl"

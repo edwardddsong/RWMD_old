@@ -31,38 +31,34 @@ export default function Header() {
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:grow">
+          <nav className=" md:flex md:grow justify-center">
             {/* Desktop menu links */}
             <ul className="flex grow flex-wrap items-center justify-center gap-4 text-sm lg:gap-8">
               <li className="px-3 py-1">
                 <Link
                   href="/pricing"
-                  className="flex items-center text-gray-700 transition hover:text-gray-900"
-                >
+                  className="flex items-center text-gray-700 transition hover:text-gray-900">
                   Pricing
                 </Link>
               </li>
               <li className="px-3 py-1">
                 <Link
                   href="/customers"
-                  className="flex items-center text-gray-700 transition hover:text-gray-900"
-                >
+                  className="flex items-center text-gray-700 transition hover:text-gray-900">
                   Customers
                 </Link>
               </li>
               <li className="px-3 py-1">
                 <Link
                   href="/blog"
-                  className="flex items-center text-gray-700 transition hover:text-gray-900"
-                >
+                  className="flex items-center text-gray-700 transition hover:text-gray-900">
                   Blog
                 </Link>
               </li>
               <li className="px-3 py-1">
                 <Link
                   href="/documentation"
-                  className="flex items-center text-gray-700 transition hover:text-gray-900"
-                >
+                  className="flex items-center text-gray-700 transition hover:text-gray-900">
                   Docs
                 </Link>
               </li>
@@ -72,16 +68,14 @@ export default function Header() {
                 <li>
                   <Link
                     href="/support"
-                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100"
-                  >
+                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100">
                     Support center
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/apps"
-                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100"
-                  >
+                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100">
                     Apps
                   </Link>
                 </li>
@@ -92,20 +86,18 @@ export default function Header() {
           {/* Desktop sign in links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
-              <Link
+              {/* <Link
                 href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
-              >
+                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50">
                 Login
               </Link>
             </li>
             <li>
               <Link
                 href="/signup"
-                className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
-              >
+                className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900">
                 Register
-              </Link>
+              </Link> */}
             </li>
           </ul>
 
